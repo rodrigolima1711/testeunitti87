@@ -16,5 +16,10 @@ namespace testeunitti87
         {
             InitializeComponent();
         }
+
+        private void BtnGitar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gitou!");
+        }
     }
 }
